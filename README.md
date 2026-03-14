@@ -22,11 +22,10 @@
 ---
 ## 🎮 Game Screenshots
 
-### Gameplay
-![Gameplay Screenshot](sfml1.png)
-
-### Game in Action
-![Game Screenshot](sfml2.png)
+<p align="center">
+  <img src="sfml1.png" width="400">
+  <img src="sfml2.png" width="400">
+</p>
 
 ## 🎮 What is this?
 

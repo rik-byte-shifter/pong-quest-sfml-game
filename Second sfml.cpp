@@ -3,7 +3,6 @@
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
-#include <sstream>
 #include <fstream>
 
 using namespace std;
@@ -155,6 +154,7 @@ void handleEvents() {
                     gameState = GAME;
                     ball.shape.setPosition(400, 10);
                     ball.velocity = { 1.2f, 1.2f };
+                    paddle.shape.setPosition(600, 660);
                     music.play();
                 }
 
@@ -209,6 +209,8 @@ void update() {
 
         if (ball.shape.getGlobalBounds().intersects(paddle.shape.getGlobalBounds())) {
             ball.bounceY();
+            float paddleTop = paddle.shape.getPosition().y;
+            ball.shape.setPosition(ball.shape.getPosition().x, paddleTop - ball.shape.getRadius() * 2 - 1.f);
             score++;
 
             if (score % 5 == 0) {

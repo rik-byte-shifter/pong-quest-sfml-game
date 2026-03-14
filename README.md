@@ -20,6 +20,13 @@
 <br/>
 
 ---
+## 🎮 Game Screenshots
+
+### Gameplay
+![Gameplay Screenshot](sfml1.png)
+
+### Game in Action
+![Game Screenshot](sfml2.png)
 
 ## 🎮 What is this?
 
@@ -134,10 +141,3 @@ ETE, RUET • Roll: 2204051
   <sub>Made with C++ and SFML</sub>
 </p>
 
-## 🎮 Game Screenshots
-
-### Gameplay
-![Gameplay Screenshot](sfml1.png)
-
-### Game in Action
-![Game Screenshot](sfml2.png)

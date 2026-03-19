@@ -117,7 +117,7 @@ public:
         setupText(exitButton, "Exit", 45, sf::Color::White, { 300, 450 });
         setupText(backButton, "Back to Menu", 25, sf::Color::White, { 1000, 620 });
         setupText(gameOverText, "Game Over!", 80, sf::Color::Red, { 470, 290 });
-        setupText(creditsText, "Credits:\nGame developed by Rik.\nETE, RUET\nRoll: 2204051", 55, sf::Color::White, { 150, 250 });
+        setupText(creditsText, "Credits:\nGame developed by Ranesh Das Rik.\nLinkedIn: linkedin.com/in/ranesh-das-rik\nETE, RUET\nRoll: 2204051", 55, sf::Color::White, { 150, 250 });
         setupText(scoreText, "Score: 0", 37, sf::Color::White, { 10, 10 });
         setupText(levelText, "Level: 1", 37, sf::Color::White, { 1163, 10 });
         setupText(highestScoreText, "Highest Score: " + to_string(highestScore), 45, sf::Color::White, { 300, 350 });

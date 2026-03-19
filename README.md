@@ -131,8 +131,9 @@ Replace `<path-to-SFML-include>` and `<path-to-SFML-lib>` with your SFML paths. 
 
 ## 👤 Author
 
-**Rik**  
-ETE, RUET • Roll: 2204051
+**Ranesh Das Rik**  
+ETE, RUET • Roll: 2204051  
+LinkedIn: [linkedin.com/in/ranesh-das-rik](https://www.linkedin.com/in/ranesh-das-rik/)
 
 ---
 

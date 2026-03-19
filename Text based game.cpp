@@ -39,7 +39,8 @@ int main() {
 
         if (gameState == CREDITS) {
             cout << "Credits:\n";
-            cout << "Game developed by Rik.\n";
+            cout << "Game developed by Ranesh Das Rik.\n";
+            cout << "LinkedIn: linkedin.com/in/ranesh-das-rik\n";
             cout << "ETE, RUET\nRoll: 2204051\n";
             cout << "Press any key to return to menu.\n";
             cin.ignore();
